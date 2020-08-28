@@ -10,13 +10,23 @@
 }
 
 // Smartphones
-@media(max-width: 500px) {
+@media(max-width: 650px) {
+
   #main-nav {
     flex-direction: column;
     align-items: center;
+    padding: 0.2rem 0;
+    height: 100px;
+
 
     li {
-      padding: 1rem;
+      padding: 0 .5rem 0 .5rem;
+      
+    }
+    
+    li a {
+      background: $dark-color;
+      border-radius: 15%;
     }
   }
   #header {
@@ -61,6 +71,29 @@
       .stats div {
         padding: 2rem 0 1rem 0;
       }
+    }
+  }
+
+  // Portfolio
+  #portfolio {
+    &-a {
+      .portfolio-content {
+        .card {
+          grid-template-columns: 1fr;
+
+          .card-text {
+            .card-btn {
+              flex-direction:column;
+              button {
+                display:block;
+                margin-bottom: 1rem;
+              }
+            }
+          }
+        }
+      }
+
+      
     }
   }
 
@@ -126,6 +159,27 @@
       height: 5rem;
     }
   }
+
+  // Hash Tag Link Fix
+  #portfolio-a::before {
+    display: block; 
+    content: " "; 
+    margin-top: -285px; 
+    height: 285px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+  #portfolio-a::before,
+  #about-a::before,
+  #contact-a::before {
+    display: block; 
+    content: " "; 
+    margin-top: -285px; 
+    height: 285px; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
 }
 
 // Landscape
