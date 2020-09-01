@@ -1,154 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Daniel Westlund | Software Engineer</title>
-</head>
-<body>
-  <!-- Header -->
-  <header id="header-home">
-    <div class="container">
-      <nav id="main-nav">
-        <img src="img/logo.png" alt="My Portfolio" id="logo">
-        <ul>
-          <li><a href="index.html" class="current">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="work.html">Work</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./img/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./img/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./img/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./img/site.webmanifest" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Dan Westlund | Software Engineer</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-home">
+      <nav id="main-nav" class="top">
+        <div class="container">
+          <div class="brand"><h1>Dan Westlund</h1></div>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#about-a">About</a></li>
+            <li><a href="#portfolio-a">Portfolio</a></li>
+
+            <li><a href="#contact-a">Contact</a></li>
+          </ul>
+        </div>
       </nav>
       <div class="header-content">
-        <h1>I am Dan The <span class="txt-type" data-wait="3000" data-words='["Software Engineer","Problem Solver", "Full-Stack Engineer"]'></span></h1>
-        <p class="lead">I specialize in the design and development of full-stack applications</p>
-        <a href="work.html" class="btn-light">View My Portfolio</a>
+        <h1>Hi, my name is Dan</h1>
+        <p class="lead">
+          I specialize in the design and development of full-stack applications
+        </p>
+        <a href="#portfolio-a" class="btn-light">View My Portfolio</a>
       </div>
-    </div>
-  </header>
-  <!-- Section A: specialize -->
-  <section id="home-a" class="text-center py-2">
-    <div class="container">
-      <h2 class="section-title">I Specialize In</h2>
-      <div class="bottom-line"></div>
-      <p class="lead">
-        Creating full-stack applications from conception to production
-      </p>
-      <div class="specials">
-      <div>
-        <i class="fas fa-file-alt fa-2x"></i>
-        <h3>Concepting</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error atque explicabo veritatis fugiat eius quod placeat dicta eaque? Sunt, deserunt.</p>
-      </div>
-      <div>
-        <i class="fas fa-desktop fa-2x"></i>
-        <h3>UI/UX</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error atque explicabo veritatis fugiat eius quod placeat dicta eaque? Sunt, deserunt.</p>
-      </div>
-      <div>
-        <i class="fas fa-object-ungroup fa-2x"></i>
-        <h3>Visual Design</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error atque explicabo veritatis fugiat eius quod placeat dicta eaque? Sunt, deserunt.</p>
-      </div>
-      <div>
-        <i class="fas fa-thumbs-up fa-2x"></i>
-        <h3>Interaction</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error atque explicabo veritatis fugiat eius quod placeat dicta eaque? Sunt, deserunt.</p>
-      </div>
-    </div>
-    </div>
-  </section>
+    </header>
 
-  <!-- Section B: Stats -->
-  <section id="home-b" class="text-center py-2">
-    <div class="stats">
-      <div>
-        <ul>
-          <li><i class="fas fa-users fa-3x"></i></li>
-          <li class="stats-title">Clients</li>
-          <li class="stats-number">100</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><i class="fas fa-award fa-3x"></i></li>
-          <li class="stats-title">Awards</li>
-          <li class="stats-number">3</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><i class="fas fa-hourglass-start fa-3x"></i></li>
-          <li class="stats-title">Hours Worked</li>
-          <li class="stats-number">3500</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><i class="fas fa-code-branch fa-3x"></i></li>
-          <li class="stats-title">Projects Completed</li>
-          <li class="stats-number">135</li>
-        </ul>
-      </div>
-    </div>
-
-  </section>
-
-  <!-- Section C: Process  -->
-  <section id="home-c" class="text-center py-2">
-    <div class="container">
-      <h2 class="section-title">
-        My Creative Process
-      </h2>
-      <div class="bottom-line"></div>
-      <p class="lead">All of my UI/UX and design projects are based off of a practiced forula to get the result that I am looking for</p>
-      <div class="process">
-        <div>
-          <i class="fas fa-file-alt fa-4x process-icon my-2">
-            <div class="process-step">1</div>
-          </i>
-          <h3>Discuss The Project</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reprehenderit quia fugit, voluptate dolore consequatur?</p>
-        </div>
-        <div>
-          <i class="fas fa-desktop fa-4x process-icon my-2">
-            <div class="process-step">2</div>
-          </i>
-          <h3>Brainstorming ^ Concept</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reprehenderit quia fugit, voluptate dolore consequatur?</p>
-        </div>
-        <div>
-          <i class="fas fa-object-ungroup fa-4x process-icon my-2">
-            <div class="process-step">3</div>
-          </i>
-          <h3>UI/UX Planning</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reprehenderit quia fugit, voluptate dolore consequatur?</p>
-        </div>
-        <div>
-          <i class="fas fa-thumbs-up fa-4x process-icon my-2">
-            <div class="process-step">4</div>
-          </i>
-          <h3>Interaction</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel reprehenderit quia fugit, voluptate dolore consequatur?</p>
+    <!-- About  -->
+    <section id="about-a">
+      <span id="goto">&nbsp;</span>
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="bottom-line"></div>
+        <div class="about-content">
+          <p>
+            I have 15 years of experience in the aerospace business doing pretty
+            much every job there is: repair, component design, system design,
+            customer service, supplier management and project management. I am a
+            problem solver, I am a leader, but most importantly I am a team
+            player.
+          </p>
+          <p>
+            However I realized that my true passion and calling is
+            <strong>coding!</strong> My interest in coding started to grow when
+            I realized I had a bunch of ideas for personal projects, and that I
+            could make them if I learned to code. But my interest really
+            exploded when I released that I had even more ideas on how to
+            improve the websites and apps that I use on a daily basis, and I
+            could do this for a living!
+          </p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Footer -->
-  <footer id="main-footer">
-    <div class="footer-content container">
-      <p>Copyright &copy; 2020. All Rights Reserved</p>
-      <div class="social">
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-linkedin"></i>
+    <!-- Portfolio -->
+    <section id="portfolio-a" class="text-center py-3">
+      <span id="goto">&nbsp;</span>
+      <div class="container">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="bottom-line"></div>
+
+        <div class="portfolio-content">
+          <div class="card">
+            <img src="./img/discgolfbag2-updated.JPG" alt="" />
+            <div class="card-text">
+              <h3 class="card-title">Disc Golf Bag Builder</h3>
+              <p class="lead">
+                Build and share your disc bag. Seeing your entire bag in this
+                format allows you to ensure you have all the discs you need to
+                conquer the course.
+              </p>
+              <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+              </ul>
+              <div class="card-link">
+                <a
+                  target="_blank"
+                  class="btn-light live-site"
+                  href="https://2stash.github.io/discgolf-bag-javascript/"
+                  >Live Site</a
+                >
+                <a
+                  target="_blank"
+                  class="btn-light github-repo"
+                  href="https://github.com/2stash/discgolf-bag-javascript"
+                  >Github Repo</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </footer>
-  <script src="js/typewriter.js"></script>
-</body>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact-a" class="text-center py-3">
+      <span id="goto">&nbsp;</span>
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">If you would like to reach me please send me a message on <a href="https://www.linkedin.com/in/daniel-westlund-a52a2b73" target="_blank"><strong>Linkedin</strong></a> or use the contact form below</p>
+        <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input
+              type="text"
+              class="text-input name-input"
+              placeholder="Name"
+              name="name"
+            />
+            <input
+              type="text"
+              class="text-input subject-input"
+              placeholder="Subject"
+              name="subject"
+            />
+            <input
+              type="email"
+              class="text-input email-input"
+              placeholder="Email Address"
+              name="email"
+            />
+            <input
+              type="text"
+              class="text-input phone-input"
+              placeholder="Phone Number"
+              name="phone"
+            />
+            <textarea
+              class="text-input message-input"
+              placeholder="Enter Message"
+              name="message"
+            ></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button class="btn-dark" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2020. All Rights Reserved</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/daniel-westlund-a52a2b73" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const navbar = document.getElementById("main-nav");
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 200) {
+          navbar.classList.remove("top");
+
+          if (!scrolled) {
+            navbar.style.transform = "translateY(-100px)";
+          }
+          setTimeout(() => {
+            navbar.style.transform = "translateY(0)";
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add("top");
+          scrolled = false;
+        }
+      };
+    </script>
+  </body>
 </html>
