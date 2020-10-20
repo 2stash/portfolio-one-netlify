@@ -91,6 +91,7 @@ input[class^='btn-']:hover {
   margin: 0 auto 1rem auto; }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0; }
 
@@ -139,8 +140,10 @@ section span {
     padding: 1rem; }
     #main-nav .container ul {
       display: flex; }
+    #main-nav .container .brand {
+      padding: 0; }
     #main-nav .container li {
-      padding: 1rem 1.5rem; }
+      padding: .5rem 1.5rem; }
     #main-nav .container a {
       text-decoration: none;
       color: #fff;
@@ -168,33 +171,43 @@ section span {
   font-size: 1.5rem;
   padding-bottom: 1rem; }
 
+#about-a .about-content {
+  display: grid;
+  gap: 50px;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); }
+
+#about-a .about-image {
+  min-width: 350px; }
+
+#about-a #about-image {
+  width: 400px; }
+
 #portfolio-a .portfolio-content {
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90%; }
-  #portfolio-a .portfolio-content .card {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    text-align: left;
-    padding-bottom: 5rem;
-    margin-bottom: 5rem;
-    border-bottom: 1px solid grey; }
-    #portfolio-a .portfolio-content .card .card-text {
-      margin: 0 1rem 0 1rem; }
-      #portfolio-a .portfolio-content .card .card-text ul {
-        display: flex;
-        justify-content: space-evenly; }
-      #portfolio-a .portfolio-content .card .card-text li {
-        padding: 0.5rem 1rem 0.5rem 1rem;
-        background: #84b5d6;
-        border-radius: 15%; }
-      #portfolio-a .portfolio-content .card .card-text .card-link {
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 2rem; }
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+#portfolio-a .card {
+  width: 650px;
+  margin: 10px 10px 40px 10px;
+  padding-bottom: 15px;
+  border: 1px solid #f0ead6; }
+
+#portfolio-a ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+#portfolio-a li {
+  margin-left: 5px;
+  margin-bottom: 10px; }
+
+#portfolio-a img {
+  width: 100%; }
+
+#portfolio-a p {
+  margin: 15px 15px; }
 
 #contact-a .text-fields {
   display: grid;
@@ -244,7 +257,10 @@ section span {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
-      padding-top: 5rem; } }
+      padding-top: 5rem; }
+  #about-a .about-content {
+    grid-template-columns: 1fr;
+    grid-template-areas: "about-image" "about-text"; } }
 
 @media (max-width: 650px) {
   #main-nav {
@@ -271,7 +287,7 @@ section span {
         display: block;
         margin-bottom: 1rem; }
   #contact-a .text-fields {
-    grid-template-areas: 'name' 'subject' 'email' 'phone' 'message'; }
+    grid-template-areas: "name" "subject" "email" "phone" "message"; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {

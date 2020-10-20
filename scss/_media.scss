@@ -1,28 +1,37 @@
 // Tablets and Smaller
-@media(max-width: 800px){
+@media (max-width: 800px) {
   #header-home {
     height: 30rem;
 
     .header-content {
-      padding-top:5rem;
+      padding-top: 5rem;
+    }
+  }
+  #about {
+    &-a {
+      .about-content {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "about-image"
+          "about-text";
+      }
     }
   }
 }
 
 // Smartphones
-@media(max-width: 650px) {
+@media (max-width: 650px) {
   #main-nav {
     height: 100px;
   }
-  #main-nav .container{
-    display:block;
+  #main-nav .container {
+    display: block;
     text-align: center;
     padding: 0;
 
     ul {
       justify-content: space-evenly;
     }
-
   }
   #header {
     &-home {
@@ -49,15 +58,15 @@
 
           .card-text {
             .card-btn {
-              flex-direction:column;
+              flex-direction: column;
               button {
-                display:block;
+                display: block;
                 margin-bottom: 1rem;
               }
             }
           }
         }
-      } 
+      }
     }
   }
 
@@ -65,12 +74,12 @@
   #contact {
     &-a {
       .text-fields {
-        grid-template-areas: 
-        'name'
-        'subject'
-        'email'
-        'phone'
-        'message';
+        grid-template-areas:
+          "name"
+          "subject"
+          "email"
+          "phone"
+          "message";
       }
     }
   }
@@ -86,26 +95,3 @@
     }
   }
 }
-
-// Landscape
-// @media(max-height: 580px) {
-//   #header-home {
-//     .header-content {
-//       padding-top: 3rem;
-
-//       h1 {
-//         font-size: 2rem;
-//       }
-//     }
-//   }
-// }
-
-// @media(max-height: 330px) {
-//   #header-home {
-//     .header-content {
-//       h1 {
-//         font-size: 2rem;
-//       }
-//     }
-//   }
-// }

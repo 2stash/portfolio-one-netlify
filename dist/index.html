@@ -53,9 +53,7 @@
       </nav>
       <div class="header-content">
         <h1>Hi, my name is Dan</h1>
-        <p class="lead">
-          I specialize in the design and development of full-stack applications
-        </p>
+        <p class="lead">I am a software engineer who loves to code</p>
         <a href="#portfolio-a" class="btn-light">View My Portfolio</a>
       </div>
     </header>
@@ -63,27 +61,31 @@
     <!-- About  -->
     <section id="about-a">
       <span id="goto">&nbsp;</span>
-      <div class="container">
-        <h2 class="section-title">About</h2>
-        <div class="bottom-line"></div>
-        <div class="about-content">
-          <p>
-            I have 15 years of experience in the aerospace business doing pretty
-            much every job there is: repair, component design, system design,
-            customer service, supplier management and project management. I am a
-            problem solver, I am a leader, but most importantly I am a team
-            player.
-          </p>
-          <p>
-            However, I realized that my true passion and calling is
-            <strong>coding!</strong> My interest in coding started to grow when
-            I realized I had a bunch of ideas for personal projects, and that I
-            could make them if I learned to code. But my interest really
-            exploded when I realized that I had even more ideas on how to
-            improve the websites and apps that I use on a daily basis, and I
-            could do this for a living!
-          </p>
+      <h2 class="section-title">About</h2>
+      <div class="bottom-line"></div>
+
+      <div class="container about-content">
+  
+          
+          <div class="about-text">
+            <p>
+              I have 15 years of experience in the aerospace business doing
+              pretty much every job there is: repair, component design, system
+              design, customer service, supplier management and project
+              management.
+            </p>
+            <p>
+              I am a problem solver, I am a leader, but most importantly I am a
+              team player.
+            </p>
+          </div>
+
+
+
+        <div class="about-image">
+          <img id="about-image" src="/dist/img/dan.jpg" />
         </div>
+
       </div>
     </section>
 
@@ -96,37 +98,50 @@
 
         <div class="portfolio-content">
           <div class="card">
-            <img src="./img/discgolfbag2-updated.JPG" alt="" />
+            <img src="./img/discbagsite.png" alt="" />
             <div class="card-text">
               <h3 class="card-title">Disc Golf Bag Builder</h3>
               <p class="lead">
                 Build and share your disc bag. Seeing your entire bag in this
                 format allows you to ensure you have all the discs you need to
-                conquer the course.
+                conquer any course.
               </p>
               <ul>
-                <li>HTML5</li>
-                <li>CSS</li>
-                <li>Javascript</li>
+                <li><strong>HTML5/CSS</strong></li>
+                <li><strong>Javascript</strong></li>
+                <li><strong>React</strong></li>
+                <li><strong>Node.js</strong></li>
+                <li><strong>AWS (S3)</strong></li>
+                <li><strong>MongoDB</strong></li>
+                
               </ul>
+
               <div class="card-link">
                 <a
                   target="_blank"
                   class="btn-light live-site"
-                  href="https://2stash.github.io/discgolf-bag-javascript/"
+                  href="https://enigmatic-beyond-47734.herokuapp.com/"
                   >Live Site</a
                 >
                 <a
                   target="_blank"
                   class="btn-light github-repo"
-                  href="https://github.com/2stash/discgolf-bag-javascript"
+                  href="https://github.com/2stash/discgolf"
                   >Github Repo</a
                 >
               </div>
             </div>
           </div>
+<!-- next project----------------------------------------- -->
+
         </div>
       </div>
+    </section>
+
+
+    <section id="accomplishments-a">
+      
+
     </section>
 
     <!-- Contact Form -->
@@ -135,7 +150,15 @@
       <div class="container">
         <h2 class="section-title">Contact Me</h2>
         <div class="bottom-line"></div>
-        <p class="lead">If you would like to reach me please send me a message on <a href="https://www.linkedin.com/in/daniel-westlund-a52a2b73" target="_blank"><strong>Linkedin</strong></a> or use the contact form below</p>
+        <p class="lead">
+          If you would like to reach me please send me a message on
+          <a
+            href="https://www.linkedin.com/in/daniel-westlund-a52a2b73"
+            target="_blank"
+            ><strong>Linkedin</strong></a
+          >
+          or use the contact form below
+        </p>
         <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
           <div class="text-fields">
             <input
@@ -181,7 +204,11 @@
       <div class="footer-content container">
         <p>Copyright &copy; 2020. All Rights Reserved</p>
         <div class="social">
-          <a href="https://www.linkedin.com/in/daniel-westlund-a52a2b73" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a
+            href="https://www.linkedin.com/in/daniel-westlund-a52a2b73"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
         </div>
       </div>
     </footer>
