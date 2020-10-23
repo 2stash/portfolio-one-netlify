@@ -133,6 +133,20 @@ section span {
       width: 400px;
     }
   }
+  &-b {
+
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      gap: 10px;
+    }
+    .card {
+      width:200px;
+      // height: 350px;
+      border: 1px black solid;
+      background-color: lightblue;
+    }
+  }
   
 }
 
@@ -146,7 +160,7 @@ section span {
     }
 
     .card {
-      width:650px;
+      width:450px;
       margin: 10px 10px 40px 10px;
       padding-bottom: 15px;
       border: 1px solid #f0ead6;

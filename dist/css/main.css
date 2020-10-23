@@ -183,13 +183,23 @@ section span {
 #about-a #about-image {
   width: 400px; }
 
+#about-b .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px; }
+
+#about-b .card {
+  width: 200px;
+  border: 1px black solid;
+  background-color: lightblue; }
+
 #portfolio-a .portfolio-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly; }
 
 #portfolio-a .card {
-  width: 650px;
+  width: 450px;
   margin: 10px 10px 40px 10px;
   padding-bottom: 15px;
   border: 1px solid #f0ead6; }
