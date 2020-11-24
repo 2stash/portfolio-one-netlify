@@ -164,6 +164,35 @@ section span {
       margin: 10px 10px 40px 10px;
       padding-bottom: 15px;
       border: 1px solid #f0ead6;
+
+      .algoschedule-gif {
+        width:100%;
+        height: 225px;
+        margin:auto;
+        display:block;
+        background-image: url('../img/algoschedulepic.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+           }
+      .algoschedule-gif:hover {
+        background-image: url('../img/algoschedule.gif')
+      }
+
+      .discgolf-gif {
+        width:100%;
+        height: 225px;
+        margin:auto;
+        display:block;
+        background-image: url('../img/discbagsite.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .discgolf-gif:hover {
+        background-image: url('../img/discgolf.gif')
+      }
+
     }
 
     ul {
