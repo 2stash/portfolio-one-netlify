@@ -183,15 +183,8 @@ section span {
 #about-a #about-image {
   width: 400px; }
 
-#about-b .container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px; }
-
-#about-b .card {
-  width: 200px;
-  border: 1px black solid;
-  background-color: lightblue; }
+#about-a a:hover {
+  color: #ffbc00; }
 
 #portfolio-a .portfolio-content {
   display: flex;
@@ -225,6 +218,28 @@ section span {
     background-position: center; }
   #portfolio-a .card .discgolf-gif:hover {
     background-image: url("../img/discgolf.gif"); }
+  #portfolio-a .card .mangakotoba-gif {
+    width: 100%;
+    height: 255px;
+    margin: auto;
+    display: block;
+    background-image: url("../img/mangakotoba.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #portfolio-a .card .mangakotoba-gif:hover {
+    background-image: url("../img/mangakotoba.gif"); }
+  #portfolio-a .card .flashcards-gif {
+    width: 100%;
+    height: 255px;
+    margin: auto;
+    display: block;
+    background-image: url("../img/flashcards.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #portfolio-a .card .flashcards-gif:hover {
+    background-image: url("../img/flashcards.gif"); }
 
 #portfolio-a ul {
   display: flex;
