@@ -196,6 +196,17 @@ section span {
   margin: 10px 10px 40px 10px;
   padding-bottom: 15px;
   border: 1px solid #f0ead6; }
+  #portfolio-a .card .dashboard-gif {
+    width: 100%;
+    height: 225px;
+    margin: auto;
+    display: block;
+    background-image: url("../img/dashboard-portfolio.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; }
+  #portfolio-a .card .dashboard-gif:hover {
+    background-image: url("../img/dashboard-portfolio.gif"); }
   #portfolio-a .card .algoschedule-gif {
     width: 100%;
     height: 225px;

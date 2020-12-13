@@ -152,6 +152,21 @@ section span {
       margin: 10px 10px 40px 10px;
       padding-bottom: 15px;
       border: 1px solid #f0ead6;
+      .dashboard-gif {
+        width:100%;
+        height: 225px;
+        margin:auto;
+        display:block;
+        background-image: url('../img/dashboard-portfolio.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+           }
+      .dashboard-gif:hover {
+        background-image: url('../img/dashboard-portfolio.gif')
+      }
+
+
 
       .algoschedule-gif {
         width:100%;
